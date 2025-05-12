@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Classification",
+      "request": "launch",
+      "mainClass": "Classification",
+      "vmArgs": "--add-opens java.base/java.lang=ALL-UNNAMED"
+    },
+    {
+      "type": "java",
+      "name": "Run Clustering",
+      "request": "launch",
+      "mainClass": "Clustering",
+      "vmArgs": "--add-opens java.base/java.lang=ALL-UNNAMED"
+    }
+  ]
+}
